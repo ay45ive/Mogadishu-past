@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#thumbnail-container {
+    width: 50%;
+    display: flex;
+    position: fixed;
+    z-index: 1 ;
+    align-items: center;
+    top: 25px;
+    justify-content: center;
+
+
+}
+
+#thumbnail-container img {
+    padding: 15px;
+    height: 50px;
+    border: 10px;
+
+}
+
+#display-image {
+    display: block;
+    margin: auto;
+    height: 100vh;
+}
+  
